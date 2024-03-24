@@ -1,5 +1,5 @@
 {% set name = "somata" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: cd51a1a6cd58ca79ebccfe4113ced6024491bc5431749a80c132101d2caa699f
+  sha256: 92450714664286b6e6f22479f78d9d7c58dcd50bcd4382d98e25666b6d59ee36
 
 build:
   number: 0
@@ -21,11 +21,13 @@ requirements:
   run:
     - python >=3.8
     - numpy >=1.22
+    - pytorch >=1.12.1
     - codetiming
     - colorcet
     - joblib
     - kneed
     - matplotlib-base
+    - mne
     - scipy
     - spectrum
     - tqdm
