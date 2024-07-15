@@ -19,6 +19,8 @@ requirements:
     - pip
     - python >=3.8
   run:
+    - cmdstanpy
+    - pandas
     - python >=3.8
     - numpy >=1.22
     - pytorch >=1.12.1
