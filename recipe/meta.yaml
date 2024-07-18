@@ -20,19 +20,19 @@ requirements:
     - python >=3.8
   run:
     - cmdstanpy
-    - pandas
-    - python >=3.8
-    - numpy >=1.22
-    - pytorch >=1.12.1
     - codetiming
     - colorcet
     - joblib
     - kneed
     - matplotlib-base
-    - mne
+    - mne >=1.6.0
+    - numpy >=1.22
     - scipy
     - spectrum
     - tqdm
+    - pandas
+    - python >=3.8
+    - pytorch >=1.12.1
 
 test:
   requires:
@@ -46,8 +46,8 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: "State-space Oscillator Modeling And Time-series Analysis"
-  doc_url: https://pypi.org/project/somata/
-  doc_source_url: https://github.com/mh105/somata-dev/blob/master/README.md
+  doc_url: https://pypi.org/project/somata
+  doc_source_url: https://github.com/mh105/somata/blob/main/README.md
   dev_url: https://github.com/mh105/somata
 
 extra:
