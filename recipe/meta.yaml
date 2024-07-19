@@ -1,5 +1,5 @@
 {% set name = "somata" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.5" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 090da5199b92fcc408b69ca977d8eecd93554120e7750016f9116d84f0e5713b
+  sha256: 33399a2f6d5cccfaaa9ffd69d694114a4c09eabe3425be33356000f0758c56ce
 
 build:
   number: 0
@@ -29,6 +29,7 @@ requirements:
     - numpy >=1.22
     - scipy
     - spectrum
+    - statsmodels
     - tqdm
     - pandas
     - python >=3.8
