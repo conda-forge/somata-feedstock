@@ -29,6 +29,7 @@ requirements:
     - numpy >=1.22
     - scipy
     - spectrum
+    - statsmodels
     - tqdm
     - pandas
     - python >=3.8
