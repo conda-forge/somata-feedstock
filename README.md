@@ -11,7 +11,7 @@ Summary: State-space Oscillator Modeling And Time-series Analysis
 
 Development: https://github.com/mh105/somata
 
-Documentation: https://pypi.org/project/somata/
+Documentation: https://pypi.org/project/somata
 
 Current build status
 ====================
