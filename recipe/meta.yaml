@@ -1,5 +1,5 @@
 {% set name = "somata" %}
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 33399a2f6d5cccfaaa9ffd69d694114a4c09eabe3425be33356000f0758c56ce
+  sha256: 675e1eecfbe9e3b4dead2e3bff56f08dfc6614f2ca6307f671ab0651a10a7e45
 
 build:
   number: 0
