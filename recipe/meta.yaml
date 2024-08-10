@@ -10,7 +10,7 @@ source:
   sha256: 675e1eecfbe9e3b4dead2e3bff56f08dfc6614f2ca6307f671ab0651a10a7e45
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -25,7 +25,7 @@ requirements:
     - joblib
     - kneed
     - matplotlib-base
-    - mne
+    - mne >=1.7
     - numpy
     - scipy
     - spectrum
